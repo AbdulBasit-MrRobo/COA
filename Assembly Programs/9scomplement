@@ -1,0 +1,5 @@
+mvi a,99
+mvi b,45
+sub b 
+sta 01h
+hlt

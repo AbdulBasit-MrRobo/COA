@@ -1,0 +1,7 @@
+mvi a,40
+cma
+inr a
+mov b,a
+mvi a,60
+add b
+hlt

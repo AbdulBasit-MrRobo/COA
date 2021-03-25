@@ -1,0 +1,6 @@
+lda 00h
+mov b,a
+lda 01h
+add b
+sta 02h
+hlt

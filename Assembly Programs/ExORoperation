@@ -1,0 +1,14 @@
+lda 01h
+cma
+mov b,a
+lda 02h
+cma
+mov c,a
+lda 01h
+ana c
+mov d,a
+lda 02h
+ana b
+add d
+sta 03h
+hlt

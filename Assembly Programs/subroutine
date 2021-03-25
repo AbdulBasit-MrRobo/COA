@@ -1,0 +1,18 @@
+lda 00h
+call RightS
+sta 00h
+lda 01h
+call LeftS
+sta 01h
+hlt
+LeftS: rlc
+       rlc
+       rlc
+       rlc
+       ret
+RightS: rrc
+        rrc
+        rrc
+        rrc
+	rrc
+	ret

@@ -1,0 +1,10 @@
+lxi h,00h
+lxi d,06h
+mvi c,3
+loop: mov a,m
+       stax d
+       inx h
+       inx d
+       dcr c
+       jnz loop
+hlt

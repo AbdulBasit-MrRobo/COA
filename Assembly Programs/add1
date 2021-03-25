@@ -1,0 +1,6 @@
+mvi c,40
+mvi d,60
+mov a,c
+add d
+mov e,a
+hlt

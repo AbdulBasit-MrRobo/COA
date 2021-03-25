@@ -1,0 +1,8 @@
+lda 01h
+cma
+inr a
+mov b,a
+lda 00h
+add b
+sta 02h
+hlt

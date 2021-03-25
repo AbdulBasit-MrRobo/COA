@@ -1,0 +1,10 @@
+lda 00h
+mov b,a
+lda 01h
+mov c,a
+mvi a,0
+mov a,c
+sta 00h
+mov a,b
+sta 01h
+hlt

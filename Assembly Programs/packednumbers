@@ -1,0 +1,12 @@
+lda 00h
+call shl1
+mov b,a
+lda 01h
+add b
+sta 02h
+hlt
+shl1: rlc
+      rlc
+      rlc
+      rlc
+      ret

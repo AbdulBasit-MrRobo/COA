@@ -1,0 +1,12 @@
+lda 00h
+mov b,a
+lda 01h
+mov c,a
+mvi d,0
+mov a,b
+loop: inr d
+      sub c
+      jnz loop
+mov a,d
+sta 02h
+hlt

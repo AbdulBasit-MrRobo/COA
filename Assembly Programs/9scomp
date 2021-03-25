@@ -1,0 +1,4 @@
+lda 00h
+sub 02h
+sta 01h
+hlt
